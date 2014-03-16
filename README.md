@@ -1,6 +1,6 @@
 # Packex
 
-Relex helper to create an shippable archive file from your assembled Elixir project
+Relex helper to create a shippable archive file from your assembled Elixir project
 
 ----
 
