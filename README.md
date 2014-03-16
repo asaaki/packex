@@ -15,7 +15,7 @@ If included to your project's Relex setup you will get an archive file like `myr
 Add `Packex` to your dependencies:
 
 ```elixir
-{ :packex, github: "asaaki/packex.git" }
+{ :packex, github: "asaaki/packex" }
 ```
 
 Ensure its `ebin` path is added (on top of `mix.exs`):
