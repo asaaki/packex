@@ -5,8 +5,6 @@ defmodule Packex.Release do
 
       def packex_wrap_it! _ do
         {release, options} = Mix.Tasks.Relex.release
-        IO.puts "release is: #{inspect release}"
-        IO.puts "options is: #{inspect options}"
         release_name       = Mix.Tasks.Relex.release_info(release, options)
         release_path       = Path.expand(Path.join([ options[:path] || File.cwd!, name(options) ]))
         package_base       = (options[:path] && Path.expand(options[:path])) || File.cwd!
