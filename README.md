@@ -7,6 +7,7 @@ Relex helper to create an shippable archive file from your assembled Elixir proj
 [Relex](https://github.com/yrashk/relex) with [Pogo](https://github.com/onkel-dirtus/pogo) is cool.
 Relex with Pogo and Packex is even cooler.
 
+If included to your project's Relex setup you will get an archive file like `myrelease-0.1.0.tar.gz` for easier shipping to your production systems.
 
 
 ## Mixfile
