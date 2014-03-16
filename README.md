@@ -1,19 +1,11 @@
 # Packex
 
-Relex helper to create an shippable archive file
+Relex helper to create an shippable archive file from your assembled Elixir project
 
 ----
 
-Relex with Pogo is cool. Relex with Pogo and Packex is even cooler.
-
-
-
-
-## Clone
-
-```shell
-git clone git@github:asaaki/packex.git packex
-```
+[Relex](https://github.com/yrashk/relex) with [Pogo](https://github.com/onkel-dirtus/pogo) is cool.
+Relex with Pogo and Packex is even cooler.
 
 
 
@@ -52,6 +44,8 @@ Within the `defmodule Release` definition in your `mix.exs`:
 ## `priv/release.sh`
 
 This file is just a convenient helper script to run the related mix tasks with a single command.
+
+Copy it to your project's root directory and just call `./release.sh`.
 
 
 
